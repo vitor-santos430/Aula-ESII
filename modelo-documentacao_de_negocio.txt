@@ -1,0 +1,29 @@
+NEGÓCIO
+- Qual é o negócio?
+
+- História do usuário 
+	
+- Quais são os problemas/oportunidades?
+
+	- Funcionalidades que possui e quais deveria ter.
+
+	- Exemplos de problemas.
+
+	- Explorar custos e perguntas relacionadas ao que está escrito.
+	
+- Vocabulário de negócio?
+
+- Quais são as atividades de negócio?
+	
+- Quais são os processos de negócio?
+	
+- Quais são as regras de negócio?
+
+RN0001 -
+
+- Quem são os stakeholders?
+	
+
+REQUISITO DO SISTEMA:
+
+- R0001 
