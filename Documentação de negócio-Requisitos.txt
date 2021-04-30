@@ -1,5 +1,11 @@
 NEGÓCIO
 - Qual é o negócio?
+	
+	Curso online de matemática para alunos estudarem em casa visa auxiliar nas atividades realizadas 
+de uma forma que alunos enviem para o sistema online a conta que necessitam realizar e qual seria a resposta,
+assim o próprio sistema verificaria se a resposta do aluno está correta e já aplica a nota de acordo
+com o que foi respondido, a necessidade por enquantos seria desenvolver apenas o calculo e perímetro de
+uma circunferência e de um retângulo.
 
 - História do usuário 
 	
