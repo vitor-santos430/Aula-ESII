@@ -17,7 +17,27 @@ automaticamente fica díficil para o controle dos professores na resulução.
 
 - Quais são os problemas/oportunidades?
 
-	
+	- Atualmente estão querendo implementar um sistema de cálculo para física básica, porém
+de uma forma que o aluno insira o cálculo e sua possível resposta e o sistema verifique a veracidade
+com o cálculo e já retorne ao aluno a resposta.
+
+	- Os professores precisam de um longo tempo para avaliar todos os exercícios dos alunos e o
+envio deve ocorrer diretamente, pois o aluno não tem a resposta na hora.
+
+	- Apesar de poder utilizar uma ferramenta online, a escola necessita de um sistema próprio
+para implementar a base dos alunos futuramente e para realizar os cálculos e notas de acordo com a
+sua própria documentação.
+
+	- Alunos acabam reclamando por darem uma resposta correta e o professor corrigir errado, isso
+ocorre muitas vezes por conta da letra do aluno ou por algum descuido que pode ocorrer por conta da
+quantidade de exercícios.
+
+	- Acabam perdendo alguns leads por conta dos alunos quererem um processo mais automatizado
+durante a pandemia.
+
+	- Um sistema automático que realiza contas de física básica auxiliaria os alunos em suas resoluções
+de exercícios, assim os professores teriam um tempo maior para implementar novos exercícios a ajudar
+apenas em dúvidas e nas aulas.
 	
 - Vocabulário de negócio?
 
