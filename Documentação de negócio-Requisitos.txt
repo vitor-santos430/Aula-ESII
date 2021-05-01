@@ -47,11 +47,16 @@ apenas em dúvidas e nas aulas.
 
 
 - Quais são as atividades de negócio?
-
+	
 
 	
 - Quais são os processos de negócio?
 
+	- O aluno envia os exercícios por e-mail.
+	- A escola envia para os professores corrigirem.
+	- Os professores corrigirem.
+	- A escola envia as notas para os alunos.
+	- O aluno deixa as notas escritas no caderno.
 
 	
 - Quais são as regras de negócio?
