@@ -71,4 +71,10 @@ RN0004 - O cálculo do peímetro do retângulo deverá ser calculado com base na
 
 REQUISITO DO SISTEMA:
 
-- R0001 
+R0001 - Aplicar as fórmulas para encontrar a área e o perimetro da circunferência.
+R0002 - Aplicar as fórmulas para encontrar a área e o perimetro do retângulo.
+R0003 - Exibir área e perímetro da circunferência.
+R0004 - Exibir área e perímetro do retângulo.
+R0005 - Utilizar a Linguagem Java par implementar o projeto.
+R0006 - Deve ter o método verificarCircunferencia() que deve receber o raio da circunferência e retornar em Double a Área e o perímetro da circunferência.
+R0007 - Deve ter o método verificarRetangulo() que deve receber a Base e a Altura do retângulo e retornar em Double a Área e o perímetro do retângulo.
