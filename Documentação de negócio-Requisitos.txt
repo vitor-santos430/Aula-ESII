@@ -45,11 +45,6 @@ apenas em dúvidas e nas aulas.
 	Área - é a medida de uma superfície.
 	Perimetro - é a medida do comprimento de um contorno.
 
-
-- Quais são as atividades de negócio?
-
-
-
 	
 - Quais são os processos de negócio?
 
@@ -62,10 +57,13 @@ apenas em dúvidas e nas aulas.
 	
 - Quais são as regras de negócio?
 
-RN0001 -
+RN0001 - 
 
 - Quem são os stakeholders?
-
+	- Professores
+	- Alunos
+	- Diretor 
+	- Pais de alunos
 	
 
 REQUISITO DO SISTEMA:
