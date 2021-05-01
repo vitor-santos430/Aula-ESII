@@ -14,7 +14,7 @@ public class Main {
 		double base, altura,raio,respostaArea,respostaPerimetro;
 		
 		while(opcao != 0) {
-			System.out.println("Menu - Escolha um n˙mero do c·lculo que deseja verificar");
+			System.out.println("Menu - Escolha um n√∫mero do c√°lculo que deseja verificar");
 			System.out.println("0. Sair");
 			System.out.println("1. Retangulo");
 			System.out.println("2. Circunferencia");
@@ -23,7 +23,7 @@ public class Main {
 			scan.nextLine();
 			switch(opcao) {
 				case 1:
-					//VerificaÁ„o dos valores de base e altura
+					//Verifica√ß√£o dos valores de base e altura
 					System.out.println("** Retangulo **");
 					System.out.print("Digite o valor da base: ");
 					base = scan.nextDouble();
@@ -32,47 +32,47 @@ public class Main {
 					altura = scan.nextDouble();
 					
 					//Verificando respostas
-					System.out.print("Digite o resultado da ·rea: ");
+					System.out.print("Digite o resultado da √°rea: ");
 					respostaArea = scan.nextDouble();
-					System.out.print("Digite o resultado do perÌmetro: ");
+					System.out.print("Digite o resultado do per√≠metro: ");
 					respostaPerimetro = scan.nextDouble();
 					
-					//VerificaÁ„o do ret‚ngulo
+					//Verifica√ß√£o do ret√¢ngulo
 					VerificarRetangulo retangulo = new VerificarRetangulo(base, altura);
 					for (int i = 0; i < 30; ++i) System.out.print("*");
-					System.out.println("\nSua resposta da ·rea est·: "+retangulo.getRespostaArea(respostaArea));
-					System.out.println("\nSua resposta do perÌmetro est·: "+retangulo.getRespostaPerimetro(respostaPerimetro));
-					System.out.println("\n¡rea: "+retangulo.getArea());
-					System.out.println("PerÌmetro: "+retangulo.getPerimetro());
+					System.out.println("\nSua resposta da √°rea est√°: "+retangulo.getRespostaArea(respostaArea));
+					System.out.println("\nSua resposta do per√≠metro est√°: "+retangulo.getRespostaPerimetro(respostaPerimetro));
+					System.out.println("\n√Årea: "+retangulo.getArea());
+					System.out.println("Per√≠metro: "+retangulo.getPerimetro());
 					pauseEnter("Pressione qualquer tecla para continuar...", System.out);
 					
 					break;
 				case 2:
-					//VerificaÁ„o do raio da cricunferÍncia
-					System.out.println("** CircunferÍncia **");
+					//Verifica√ß√£o do raio da cricunfer√™ncia
+					System.out.println("** Circunfer√™ncia **");
 					System.out.print("Digite o valor do raio: ");
 					raio = scan.nextDouble();
 					
 					//Verificando respostas
-					System.out.print("Digite o resultado da ·rea: ");
+					System.out.print("Digite o resultado da √°rea: ");
 					respostaArea = scan.nextDouble();
-					System.out.print("Digite o resultado do perÌmetro: ");
+					System.out.print("Digite o resultado do per√≠metro: ");
 					respostaPerimetro = scan.nextDouble();
 					
-					//VerificaÁ„o do ret‚ngulo
+					//Verifica√ß√£o da circunfer√™ncia
 					verificarCircunferencia circunferencia = new verificarCircunferencia(raio);
 					for (int i = 0; i < 30; ++i) System.out.print("*");
-					System.out.println("\nSua resposta da ·rea est·: "+circunferencia.getRespostaArea(respostaArea));
-					System.out.println("\nSua resposta do perÌmetro est·: "+circunferencia.getRespostaPerimetro(respostaPerimetro));
-					System.out.println("\n¡rea: "+circunferencia.getArea());
-					System.out.println("PerÌmetro: "+circunferencia.getPerimetro());
+					System.out.println("\nSua resposta da √°rea est√°: "+circunferencia.getRespostaArea(respostaArea));
+					System.out.println("\nSua resposta do per√≠metro est√°: "+circunferencia.getRespostaPerimetro(respostaPerimetro));
+					System.out.println("\n√Årea: "+circunferencia.getArea());
+					System.out.println("Per√≠metro: "+circunferencia.getPerimetro());
 					pauseEnter("Pressione qualquer tecla para continuar...", System.out);
 					break;
 				case 0:
 					System.out.println("Saindo ...");
 					break;
 				default:
-					System.out.println("Nenhuma opÁ„o v·lida selecionada");
+					System.out.println("Nenhuma op√ß√£o v√°lida selecionada");
 					pauseEnter("Pressione qualquer tecla para continuar...", System.out);
 					break;
 			}
