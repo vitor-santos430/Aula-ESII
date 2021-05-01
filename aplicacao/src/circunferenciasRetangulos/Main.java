@@ -11,12 +11,9 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int opcao = 999;
-		double base, altura,respostaArea,respostaPerimetro;
+		double base, altura,raio,respostaArea,respostaPerimetro;
 		
 		while(opcao != 0) {
-	
-			for (int i = 0; i < 50; ++i) System.out.println();
-			
 			System.out.println("Menu - Escolha um número do cálculo que deseja verificar");
 			System.out.println("0. Sair");
 			System.out.println("1. Retangulo");
@@ -45,14 +42,30 @@ public class Main {
 					for (int i = 0; i < 30; ++i) System.out.print("*");
 					System.out.println("\nSua resposta da área está: "+retangulo.getRespostaArea(respostaArea));
 					System.out.println("\nSua resposta do perímetro está: "+retangulo.getRespostaPerimetro(respostaPerimetro));
-					System.out.println("\nÁrea: "+retangulo.getAreaRetangulo());
-					System.out.println("Perímetro: "+retangulo.getPerimetroRetangulo());
+					System.out.println("\nÁrea: "+retangulo.getArea());
+					System.out.println("Perímetro: "+retangulo.getPerimetro());
 					pauseEnter("Pressione qualquer tecla para continuar...", System.out);
 					
 					break;
 				case 2:
-					System.out.println("** Circunferencia **");
+					//Verificação do raio da cricunferência
+					System.out.println("** Circunferência **");
+					System.out.print("Digite o valor do raio: ");
+					raio = scan.nextDouble();
 					
+					//Verificando respostas
+					System.out.print("Digite o resultado da área: ");
+					respostaArea = scan.nextDouble();
+					System.out.print("Digite o resultado do perímetro: ");
+					respostaPerimetro = scan.nextDouble();
+					
+					//Verificação do retângulo
+					verificarCircunferencia circunferencia = new verificarCircunferencia(raio);
+					for (int i = 0; i < 30; ++i) System.out.print("*");
+					System.out.println("\nSua resposta da área está: "+circunferencia.getRespostaArea(respostaArea));
+					System.out.println("\nSua resposta do perímetro está: "+circunferencia.getRespostaPerimetro(respostaPerimetro));
+					System.out.println("\nÁrea: "+circunferencia.getArea());
+					System.out.println("Perímetro: "+circunferencia.getPerimetro());
 					pauseEnter("Pressione qualquer tecla para continuar...", System.out);
 					break;
 				case 0:

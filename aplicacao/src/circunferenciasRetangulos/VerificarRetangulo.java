@@ -21,16 +21,16 @@ public class VerificarRetangulo {
 		perimetro = 2*(base+altura);
 	}
 	
-	public double getAreaRetangulo() {
+	public double getArea() {
 		return area;
 	}
 	
-	public double getPerimetroRetangulo() {
+	public double getPerimetro() {
 		return perimetro;
 	}
 
 	public String getRespostaPerimetro(double resposta) {
-		if(resposta == area) {
+		if(resposta == perimetro) {
 			return "Correta";
 		}else {
 			return "Errada";
