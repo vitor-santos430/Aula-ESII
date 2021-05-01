@@ -28,4 +28,19 @@ public class VerificarRetangulo {
 	public double getPerimetroRetangulo() {
 		return perimetro;
 	}
+
+	public String getRespostaPerimetro(double resposta) {
+		if(resposta == area) {
+			return "Correta";
+		}else {
+			return "Errada";
+		}
+	}
+	public String getRespostaArea(double resposta) {
+		if(resposta == area) {
+			return "Correta";
+		}else {
+			return "Errada";
+		}
+	}
 }
