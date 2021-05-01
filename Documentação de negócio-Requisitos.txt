@@ -13,7 +13,7 @@ a carga horária de correção por parte dos professores.
 	O curso de matématica online foi criado no intuito dos próprios alunos conseguirem resolver
 suas questões de aprendizado sem a necessidade de enviar para um professor corrigir, assim eles 
 conseguem resolver mais problemas de uma vez só, porém sem um sistema online que realize esse processo
-automaticamente fica díficil para o controle dos professores na resulução.
+automaticamente fica díficil para o controle dos professores na resolução.
 
 - Quais são os problemas/oportunidades?
 
