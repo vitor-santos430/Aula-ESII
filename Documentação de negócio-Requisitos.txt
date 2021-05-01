@@ -78,3 +78,4 @@ R0004 - Exibir área e perímetro do retângulo.
 R0005 - Utilizar a Linguagem Java par implementar o projeto.
 R0006 - Deve ter o método verificarCircunferencia() que deve receber o raio da circunferência e retornar em Double a Área e o perímetro da circunferência.
 R0007 - Deve ter o método verificarRetangulo() que deve receber a Base e a Altura do retângulo e retornar em Double a Área e o perímetro do retângulo.
+R0008 - O usuário deve escolher qual área e perímetro quer calcular, se é do retângulo ou da circunferência.
