@@ -57,7 +57,10 @@ apenas em dúvidas e nas aulas.
 	
 - Quais são as regras de negócio?
 
-RN0001 - 
+RN0001 - O cálculo da área da circunferência deverá ser calculado com a seguinte fórmula (Area = PI * Raio^2).
+RN0002 - O cálculo do perímetro da circunferência deverá ser calculado com  a seguinte fórmula (Perimetro = 2*PI*Raio).
+RN0003 - O cálculo da área do retângulo deverá ser calculado com a seguinte fórmula (Area = Base * Altura).
+RN0004 - O cálculo do peímetro do retângulo deverá ser calculado com base na segunte fórmula (Perimetro = 2 * (BASE+ALTURA) ).
 
 - Quem são os stakeholders?
 	- Professores
