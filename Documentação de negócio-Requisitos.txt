@@ -40,7 +40,10 @@ de exercícios, assim os professores teriam um tempo maior para implementar novo
 apenas em dúvidas e nas aulas.
 	
 - Vocabulário de negócio?
-
+	Física - ciência que investiga as leis do universo no que diz respeito à matéria e à energia, que são seus constituintes, e suas interações.
+	leads - é uma oportunidade de negócio que forneceu suas informações de contato, como nome e email, em troca de uma oferta da empresa (um conteúdo educativo, por exemplo).
+	Área - é a medida de uma superfície.
+	Perimetro - é a medida do comprimento de um contorno.
 
 
 - Quais são as atividades de negócio?
